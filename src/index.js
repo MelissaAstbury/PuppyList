@@ -1,17 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//const element = <h1>Hello react!</h1>; // jsx
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// const Sum = ({ num1, num2 }) => {
+//   return <p> 1 + 2 = {num1 + num2} </p>;
+// };
+
+// const List = () => {
+//   return [<li>thing 1</li>, <li>thing2</li>, <li>thing3</li>];
+// };
+
+ReactDOM.render(<App />, document.getElementById("root"));
